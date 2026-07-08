@@ -38,6 +38,7 @@ public class FlipperController : MonoBehaviour
         // Quaternion.Euler(): X,Y,Z の角度（度数）をQuaternionに変換するUnity独自の関数
         Quaternion targetRotation = Quaternion.Euler(0f, 0f, targetAngle);
 
+
         // transform.localRotation: 親オブジェクト基準の回転。transformはUnityが自動で用意するコンポーネント（Unity独自）
         // Quaternion.RotateTowards(): 現在の回転を目標の回転へ一定速度で近づけるUnity独自の関数
         // Time.deltaTime: 前フレームからの経過秒数。掛けることでFPSに依存しない速度になる（Unity独自）
