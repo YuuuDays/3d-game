@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 108740105}
   - component: {fileID: 108740104}
   - component: {fileID: 108740103}
+  - component: {fileID: 108740107}
   m_Layer: 0
   m_Name: Flipper_Left
   m_TagString: Untagged
@@ -336,13 +337,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108740102}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.6960937, y: -0.0024536098, z: -0.7179429, w: -0.00237894}
   m_LocalPosition: {x: 0.13, y: 0.25, z: -4.21}
   m_LocalScale: {x: 3.8, y: 0.3, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 180.392, y: 91.77, z: 0}
+--- !u!114 &108740107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108740102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703dd98eec35c724bb2373f163683abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipperController
+  side: 0
+  restAngle: 0
+  activeAngle: -45
+  speed: 15
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,13 +447,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.05347067, y: 0.704241, z: -0.053341925, w: 0.7059322}
-  m_LocalPosition: {x: -10.720274, y: 2.196711, z: -6.8909945}
+  m_LocalRotation: {x: -0.0052684927, y: 0.9947148, z: -0.07534296, w: -0.06955723}
+  m_LocalPosition: {x: -0.63, y: 2.61, z: 0.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8.663, y: 188, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,6 +810,7 @@ GameObject:
   - component: {fileID: 835383323}
   - component: {fileID: 835383322}
   - component: {fileID: 835383321}
+  - component: {fileID: 835383325}
   m_Layer: 0
   m_Name: Flipper_Rigth
   m_TagString: Untagged
@@ -886,13 +904,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835383320}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.7345894, y: -0.02761905, z: 0.6772874, w: 0.029955758}
   m_LocalPosition: {x: -5.04, y: 0.25, z: -4.18}
   m_LocalScale: {x: 3.8, y: 0.3, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 175.33, y: -85.35199, z: 0}
+--- !u!114 &835383325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835383320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703dd98eec35c724bb2373f163683abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipperController
+  side: 1
+  restAngle: 0
+  activeAngle: -45
+  speed: 15
 --- !u!1 &1109122522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,13 +1060,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109122522}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.34614, y: 2, z: -7.68783}
+  m_LocalRotation: {x: -0.052531388, y: -0.0020703874, z: -0.039327342, w: 0.99784243}
+  m_LocalPosition: {x: -3.43, y: 0.66, z: -15.41}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.027, y: 0, z: -4.514}
 --- !u!1 &1883112178
 GameObject:
   m_ObjectHideFlags: 0
